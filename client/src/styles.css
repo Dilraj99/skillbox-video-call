@@ -1,0 +1,14 @@
+/* ./src/index.css */
+
+body {
+    background:
+    linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
