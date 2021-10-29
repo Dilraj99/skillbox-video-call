@@ -1,10 +1,7 @@
 import React from 'react';
-import Head from 'next/head'
 //material UI imports. Material UI is just a UI kit which have some predefined ematerials that we can use.
 import { Typography, AppBar } from '@material-ui/core';
 import {makeStyles} from '@material-ui/core/styles';
-import Header from './components/Header'
-import Footer from './components/Footer'
 
 //importing component
 import VideoPlayer from './components/VideoPlayer';
