@@ -93,31 +93,31 @@ function Header() {
       {/* Options */}
       <div className="flex items-center justify-end text-gray-500">
         {/* Upload Media */}
-        {/* {currentUser ? (
-          <>
-            <button
-              type="button"
-              className="h-10 w-10 mr-1 rounded-full items-center justify-center bg-transparent hover:bg-gray-100"
-            >
-              <UploadIcon className="h-8 rounded-full flex items-center justify-center bg-transparent hover:bg-gray-100" />
-            </button>
-          </>
-        ) : (
-          <button hidden></button>
-        )} */}
+          <button
+            type="button"
+            className="h-10 w-10 mr-1 rounded-full items-center justify-center bg-transparent hover:bg-gray-100"
+          >
+            <UploadIcon className="h-8 rounded-full flex items-center justify-center bg-transparent hover:bg-gray-100" />
+          </button>
 
-        {/* Chat Message */}
-        <button
+          {/* Chat Message */}
+          <button
+            type="button"
+            className="h-10 w-10 mr-1 rounded-full flex items-center justify-center bg-transparent hover:bg-gray-100"
+          >
+            <Link href="/chat">
+              <ChatAlt2Icon className="h-8" />
+            </Link>
+          </button>
 
-          type="button"
-          className="h-10 w-10 mr-1 rounded-full flex items-center justify-center bg-transparent hover:bg-gray-100"
-        >
-        <Link href="/chat">
-          <ChatAlt2Icon className="h-8" />
-        </Link>
+           {/* Video Call Button */}
+        <button type="button" className=" h-10 w-10 mr-1 rounded-full flex items-center justify-center bg-transparent hover:bg-gray-100">
           
+           <Link href="https://skillbox-video-call.vercel.app/">
+          <VideoCameraIcon className="h-8" />
+        </Link>
         </button>
-
+        
         {/* Notifications */}
         <Popover className="relative">
           {({ open }) => (
