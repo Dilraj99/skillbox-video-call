@@ -53,7 +53,7 @@ const PORT = process.env.PORT || 5000;
 //creating our first route which will notify the user of the server is running.
 app.get("/", (req, res) => {
   //sending response on the webpage when the user visits port 5000.
-  res.send("Server is running on port 5000.");
+  res.send("Server is running...");
 });
 
 
