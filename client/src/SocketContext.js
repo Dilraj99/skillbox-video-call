@@ -18,7 +18,7 @@ const SocketContext = createContext();
 
 //initial instance of socket.io
 //once we deploy our app, we will replace the localhost with the full address of our deployed app.
-const socket = io('http://localhost:5000'); 
+const socket = io('https://skillbox-website-backend.herokuapp.com'); 
 
 
 {/*
