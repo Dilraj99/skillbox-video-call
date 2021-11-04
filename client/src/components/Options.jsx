@@ -51,7 +51,7 @@ const Options = ( {children} ) => {
     const classes = useStyles();
 
     return (
-       <Container className={classes.container}>
+       <Container className="self-center ">
        <Paper elevation={10} className={classes.paper}>
        <form className={classes.root} noValidate autoComplete="off">
        <Grid container className={classes.gridContainer}>

@@ -7,6 +7,8 @@ import {makeStyles} from '@material-ui/core/styles';
 import VideoPlayer from './components/VideoPlayer';
 import Options from './components/Options';
 import Notifications from './components/Notifications';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 //This where our UI styles for the app will go.
 const useStyles = makeStyles((theme) => ({
@@ -45,12 +47,13 @@ const App = () => {
 
     return (
 
-        <div className={classes.wrapper}>
+        <div className="min-w-full">
 
         {/*Header component*/}
-            <AppBar position="static" color="inherit" className={classes.appBar}>
+            {/* <AppBar position="static" color="inherit" className={classes.appBar}>
             <Typography varient="h2" align="center"> SkillBox Video Call</Typography>
-            </AppBar>
+            </AppBar> */}
+            <Header />
         
         {/* Video Player */}
          <VideoPlayer />
@@ -60,7 +63,7 @@ const App = () => {
         <Notifications />
         </Options>
       
-
+        <Footer />
         </div>
     );
 }
