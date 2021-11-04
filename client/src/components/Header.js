@@ -6,6 +6,7 @@ import {
   UserCircleIcon,
   BellIcon,
   ChatAlt2Icon,
+  VideoCameraIcon,
 } from "@heroicons/react/solid";
 import {
   PencilIcon,
@@ -117,7 +118,7 @@ function Header() {
           <VideoCameraIcon className="h-8" />
         </Link>
         </button>
-        
+
         {/* Notifications */}
         <Popover className="relative">
           {({ open }) => (
