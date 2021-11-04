@@ -66,7 +66,7 @@ function Header() {
 
   return (
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-gray-800 shadow-md py-5 px-5 md:px-10">
-         <Link href="/">
+         <Link href="https://updated-skill-box-website.vercel.app">
   {/* Logo/Link to Home */}
       <div className="relative flex items-center h-10 my-auto w-32">
           <div className="cursor-pointer p-2 bg-transparent hover:shadow-md">
