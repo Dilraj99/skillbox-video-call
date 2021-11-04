@@ -69,12 +69,12 @@ function Header() {
         
   {/* Logo/Link to Home */}
       <div className="relative flex items-center h-10 my-auto w-32">
-       <a href="https://updated-skill-box-website.vercel.app">
+        <Link href="https://updated-skill-box-website.vercel.app">
           <div className="cursor-pointer p-2 bg-transparent hover:shadow-md">
             <p className="inline text-2xl font-bold text-gray-100">Skill</p>
             <p className="inline text-2xl font-bold text-purple-500">Box</p>
           </div>
-          </a>
+        </Link>
       </div>
             
 
