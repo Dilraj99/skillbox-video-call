@@ -66,15 +66,15 @@ function Header() {
 
   return (
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-gray-800 shadow-md py-5 px-5 md:px-10">
-      {/* Logo/Link to Home */}
+         <Link href="/">
+  {/* Logo/Link to Home */}
       <div className="relative flex items-center h-10 my-auto w-32">
-        <Link href="/">
           <div className="cursor-pointer p-2 bg-transparent hover:shadow-md">
             <p className="inline text-2xl font-bold text-gray-100">Skill</p>
             <p className="inline text-2xl font-bold text-purple-500">Box</p>
           </div>
-        </Link>
       </div>
+            </Link>
 
       {/* Search */}
       <div className="relative flex items-center md:border-2 rounded-full py-2 md:shadow-sm">
