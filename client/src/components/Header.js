@@ -69,14 +69,14 @@ function Header() {
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-gray-800 shadow-md py-5 px-5 md:px-10">
         
   {/* Logo/Link to Home */}
-  <Link href="https://updated-skill-box-website.vercel.app">
+  <a href="https://updated-skill-box-website.vercel.app">
       <div className="relative flex items-center h-10 my-auto w-32">
           <div className="cursor-pointer p-2 bg-transparent hover:shadow-md">
             <p className="inline text-2xl font-bold text-gray-100">Skill</p>
             <p className="inline text-2xl font-bold text-purple-500">Box</p>
           </div>
       </div>
-       </Link>
+       </a>
             
 
       {/* Search */}
