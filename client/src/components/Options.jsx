@@ -3,7 +3,8 @@ import { Button, TextField, Grid, Typography, Paper, Container } from '@material
 import { makeStyles } from '@material-ui/core/styles';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import {Assignment, Phone, PhoneDisabled } from '@material-ui/icons';
-import { SocketContext } from '../SocketContext'
+import { SocketContext } from '../SocketContext';
+import Link from "next/link";
 
 //styles to use
 const useStyles = makeStyles((theme) => ({
@@ -15,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     [theme.breakpoints.down('xs')]: {
       flexDirection: 'column',
+
     },
   },
   container: {
@@ -99,7 +101,17 @@ const Options = ( {children} ) => {
        </Grid>
        </form>
        { children }
-       </Paper>
+
+       <a href="https://updated-skill-box-website.vercel.app">
+        <Button className="w-full" 
+        variant="contained" 
+        color="secondary"
+        fullWidth
+        >
+         &lt; Go Back
+       </Button>
+       </a>
+       </Paper>  
        </Container>
     )
 }
